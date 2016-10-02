@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+
+    <header>
+        <div id="header-logo">
+            P.R.O.T.E.C.T our N@ture
+        </div>
+
+        <div id="header-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="sidebar-left-tablet">
+        <table style="border-spacing:10px;">
+            <tr>
+                <td>
+                    <a href="#" class="ui-button">Home</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+            </tr>
+            <tr>
+                <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+            </tr>
+            <tr>
+                <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <main>
+        <nav id="sidebar-left">
+            <table border="0" style="border-spacing:30px">
+                <tr>                  
+                <td>
+                    <a href="#" class="ui-button">Home</a>
+                </td>
+                
+                </tr>
+                <tr>
+                    <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+                </tr>
+                <tr>
+                    <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+                </tr>
+                <tr>
+                    <td style="margin-bottom:10px;"><a href="#" class="ui-button">Home</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <section id="content">
+            @RenderBody()
+        </section>
+
+        <aside id="sidebar-right">
+
+        </aside>
+    </main>
+
+
+    <footer>
+        This is footer
+    </footer>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: true)
+
+
+</body>
+</html>

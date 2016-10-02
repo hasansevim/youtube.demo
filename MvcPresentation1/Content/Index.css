@@ -1,0 +1,39 @@
+﻿body {
+}
+
+
+#wrapper {
+
+    width:100%;
+    height:auto;
+    background-color:navajowhite;
+}
+
+
+
+#section1 {
+    width:33.3%;
+    height:auto;
+    float:left;
+
+}
+
+
+#section2 {
+    width:33.3%;
+    height:auto;
+    float:left;
+}
+
+
+#section3 {
+    width:33.3%;
+    height:auto;
+    float:left;
+}
+
+
+img {
+
+    width:100%; 
+}
